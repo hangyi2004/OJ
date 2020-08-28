@@ -70,9 +70,9 @@
         <DropdownMenu slot="list">
           <DropdownItem name="1"><Icon type="ios-browsers" color="#2d8cf0" />&emsp;{{$t('m.Blue')}}</DropdownItem>
           <DropdownItem name="2"><Icon type="ios-browsers" color="#f58f98" />&emsp;{{$t('m.Pink')}}</DropdownItem>
-          <DropdownItem name="3"><Icon type="ios-browsers" color="#d63031" />&emsp;{{$t('m.Red')}}</DropdownItem>
-          <DropdownItem name="4"><Icon type="ios-browsers" color="#00b894" />&emsp;{{$t('m.Green')}}</DropdownItem>
-          <DropdownItem name="5"><Icon type="ios-browsers" color="#673AB7" />&emsp;{{$t('m.Purple')}}</DropdownItem>
+          <DropdownItem name="4"><Icon type="ios-browsers" color="#d63031" />&emsp;{{$t('m.Red')}}</DropdownItem>
+          <DropdownItem name="5"><Icon type="ios-browsers" color="#00b894" />&emsp;{{$t('m.Green')}}</DropdownItem>
+          <DropdownItem name="3"><Icon type="ios-browsers" color="#673AB7" />&emsp;{{$t('m.Purple')}}</DropdownItem>
         </DropdownMenu>
       </Dropdown>
 
