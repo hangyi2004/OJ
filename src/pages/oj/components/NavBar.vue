@@ -64,15 +64,15 @@
       <Dropdown @on-click="switchChange" class="ivu-menu-submenu">
         <div>
 		  <Icon type="ios-browsers"></Icon>
-		  &emsp;换肤
+		  &emsp;{{$t('m.switchChange')}}
           <Icon type="ios-arrow-down"></Icon>
         </div>
         <DropdownMenu slot="list">
-          <DropdownItem name="1"><Icon type="ios-browsers" color="#2d8cf0" />&emsp;胖次蓝</DropdownItem>
-          <DropdownItem name="2"><Icon type="ios-browsers" color="#f58f98" />&emsp;少女粉</DropdownItem>
-	        <DropdownItem name="4"><Icon type="ios-browsers" color="#d63031" />&emsp;姨妈红</DropdownItem>
-		      <DropdownItem name="5"><Icon type="ios-browsers" color="#00b894" />&emsp;原谅绿</DropdownItem>
-          <DropdownItem name="3"><Icon type="ios-browsers" color="#673AB7" />&emsp;基佬紫</DropdownItem>
+          <DropdownItem name="1"><Icon type="ios-browsers" color="#2d8cf0" />&emsp;{{$t('m.Blue')}}</DropdownItem>
+          <DropdownItem name="2"><Icon type="ios-browsers" color="#f58f98" />&emsp;{{$t('m.Pink')}}</DropdownItem>
+          <DropdownItem name="4"><Icon type="ios-browsers" color="#d63031" />&emsp;{{$t('m.Red')}}</DropdownItem>
+          <DropdownItem name="5"><Icon type="ios-browsers" color="#00b894" />&emsp;{{$t('m.Green')}}</DropdownItem>
+          <DropdownItem name="3"><Icon type="ios-browsers" color="#673AB7" />&emsp;{{$t('m.Purple')}}</DropdownItem>
         </DropdownMenu>
       </Dropdown>
 
